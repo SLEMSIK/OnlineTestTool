@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="/img/logo.svg"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+</head>
+<body>
+    <img class="logo_left" src="/img/logo.svg">
+    <p class="title_txt_up">Тестирование за 7 класс История России</p>
+    <p class="settings_test_txt">Настройки теста: время на выполнение: 25 минут, вопросов: 10</p>
+    <p class="tutorial_txt">ИНФОРМАЦИЯ: Для начала Вам необходимо ввести в поле ниже имя и фамилию, после команды учителя необходимо нажать на кнопку: "НАЧАТЬ ТЕСТ". <br> В тесте 10 вопросов в которых необходимо выбрать правильную букву/написать дату, важно чтобы буквенные ответы были русского алфавита заглавными буквами. <br> Перед окончанием теста проверьте что соблюдены все описанные выще правила!</p>
+    <input class="username_input" id="username_input" type="text" placeholder="Имя и фамилия">
+    <button class="start_test_bttn">НАЧАТЬ ТЕСТ</button>
+    <button class="end_test_bttn">ЗАВЕРШИТЬ ТЕСТ</button>
+    <hr>
+    <p class="title_txt_down">Тестирование (неактив)</p>
+    <p class="timer_text">Осталось время: <span id="timer">25:00</span> минут</p>
+    <p class="q1"></p>
+    <p class="q1-a1" id="q1a1"></p>
+    <p class="q1-a2" id="q1a2"></p>
+    <p class="q1-a3" id="q1a3"></p>
+    <p class="q1-a4" id="q1a4"></p>
+    <input class="q1-a" id="q1-a" type="text" placeholder="Введите ответ">
+
+    <p class="q2"></p>
+    <p class="q2-a1" id="q2-a1"></p>
+    <p class="q2-a2" id="q2-a2"> </p>
+    <p class="q2-a3" id="q2-a3"></p>
+    <p class="q2-a4" id="q2-a4"></p>
+    <input class="q2-a" id="q2-a" type="text" placeholder="Введите ответ">
+
+    <p class="q3"></p>
+    <img src="https://testua.ru/images/test-ivan-kaz.jpg" class="q3-img1">
+    <img src="/img/q3-img2.png" class="q3-img2">
+    <p class="q3-a1" id="q3-a1"></p>
+    <p class="q3-a2" id="q3-a2"> </p>
+    <p class="q3-a3" id="q3-a3"></p>
+    <p class="q3-a4" id="q3-a4"></p>
+    <input class="q3-a" type="text"id="q3-a" placeholder="Введите ответ">
+
+    <p class="q4"></p>
+    <p class="q4-a1" id="q4-a1"></p>
+    <p class="q4-a2" id="q4-a2"> </p>
+    <p class="q4-a3" id="q4-a3"></p>
+    <p class="q4-a4" id="q4-a4"></p>
+    <input class="q4-a" type="text" id="q4-a"placeholder="Введите ответ">
+
+    <p class="q5"></p>
+    <p class="q5-a1" id="q5-a1"></p>
+    <p class="q5-a2" id="q5-a2"> </p>
+    <p class="q5-a3" id="q5-a3"></p>
+    <p class="q5-a4" id="q5-a4"></p>
+    <input class="q5-a" type="text" id="q5-a"placeholder="Введите ответ">
+
+    <p class="q6"></p>
+    <p class="q6-a1" id="q6-a1"></p>
+    <p class="q6-a2" id="q6-a2"> </p>
+    <p class="q6-a3" id="q6-a3"></p>
+    <p class="q6-a4" id="q6-a4"></p>
+    <input class="q6-a" type="text" id="q6-a"placeholder="Введите ответ">
+
+    <p class="q7"></p>
+    <p class="q7-a1" id="q7-a1"></p>
+    <p class="q7-a2" id="q7-a2"> </p>
+    <p class="q7-a3" id="q7-a3"></p>
+    <p class="q7-a4" id="q7-a4"></p>
+    <input class="q7-a" type="text" id="q7-a"placeholder="Введите ответ">
+
+    <p class="q8"></p>
+    <p class="q8-a1" id="q8-a1"></p>
+    <p class="q8-a2" id="q8-a2"></p>
+    <p class="q8-a3" id="q8-a3"></p>
+    <p class="q8-a4" id="q8-a4"></p>
+    <input class="q8-a" type="text"id="q8-a" placeholder="Введите ответ">
+
+    <p class="q9"></p>
+    <p class="q9-a1" id="q9-a1"></p>
+    <p class="q9-a2" id="q9-a2"> </p>
+    <p class="q9-a3" id="q9-a3"></p>
+    <p class="q9-a4" id="q9-a4"></p>
+    <input class="q9-a" type="text" id="q9-a"placeholder="Введите ответ">
+
+    <p class="q10"></p>
+    <p class="q10-a1" id="q10-a1"></p>
+    <p class="q10-a2" id="q10-a2"> </p>
+    <p class="q10-a3" id="q10-a3"></p>
+    <p class="q10-a4" id="q10-a4"></p>
+    <input class="q10-a" type="text"id="q10-a"placeholder="Введите ответ">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet"  type="text/css" href="/css/question.css">
+    <script src="/js/index.js"></script>
+</body>
+</html>

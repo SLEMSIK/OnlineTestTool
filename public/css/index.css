@@ -1,0 +1,109 @@
+
+.title_txt_up {
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bold;   
+}
+.settings_test_txt{
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.tutorial_txt{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+hr {
+    border: none;
+    height: 1.5px;
+    color: #333;
+    background-color: #333;
+}
+.username_input{
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 225px;
+}
+.start_test_bttn {
+    margin-left: 15px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+  
+.start_test_bttn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+.title_txt_down{
+    font-size: 45px;
+    font-weight: bold;  
+    margin-top: 17px;
+    text-align: center;
+}
+.end_test_bttn{
+    margin-top: 35px;
+    margin-left: 15px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.end_test_bttn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+
+.logo_left{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 130px;
+}
+
+.timer_text{
+    text-align: center;
+    font-size: 20px;
+    font-weight:initial;
+}
+
+input {
+    font-weight: bold;
+}
+
+
+
+.admin_title_txt{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight:900;
+}
+.testing_titles{
+    margin-left: 20px;
+    width: 500px;
+}
+.update_info{
+    margin-top: 0px;
+    margin-left: 15px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.update_info:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
