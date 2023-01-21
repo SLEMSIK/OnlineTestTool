@@ -11,14 +11,6 @@ app.get('/his7', (req, res) => {
     app.use(express.static(__dirname + '/public'));
 })
 
-/*app.get('/his7/teacher1234', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'public_teach', 'index.html'))
-  app.use(express.static(__dirname + '/public_teach'));
-})
-app.get('/', (res, req) =>{
-  res.send("Please write test adress")
-})
-*/
 app.post('/his7/result/:name/:ball', (req, res) => {
     const name = req.params.name;
     const ball = req.params.ball;
