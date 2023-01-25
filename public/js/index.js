@@ -1,5 +1,7 @@
-//Вопросы, варианты
+/* Название */ const title = "Тестирование за 7 класс История России"
+/* Время для выполнения теста (минут)*/  const time = "9"; /* Вопросов */ const question = "10"
 
+//Вопросы, варианты
 var q1v1 = "1. В каком возрасте Иван Грозный номинально стал правителем?"; var q1v1a1 = "А) В 4 года"; var q1v1a2 = "Б) В 3 года"; var q1v1a3 = "В) В 5 лет"; var q1v1a4 = "Г) В 10 лет"; var q1v1pa = "Б";
 var q1v2 = "1. В каком году состоялось венчание на царство Ивана Грозного?"; var q1v2a1 = "А) В 1547 году"; var q1v2a2 = "Б) В 1548 году"; var q1v2a3 = "В) В 1546 году"; var q1v2a4 = "Г) В 1537 году"; var q1v2pa = "А";
 var q1v3 = "1. Сколько законных жен было у Ивана Грозного?"; var q1v3a1 = "А) Одна"; var q1v3a2 = "Б) Три"; var q1v3a3 = "В) Четыре"; var q1v3a4 = "Г) Пять"; var q1v3pa = "В";
@@ -20,43 +22,60 @@ var q4v2 = "4. Назовите верные утверждения: (Прими
 var q4v3 = "4. Назовите верные утверждения: (Примичание, ответы пишутся в формате: 'А, А', где А ответ на вопрос)"; var q4v3a1 = "А) Главной причиной начала Ливонской войны была необходимость расширения связей со странами Запада"; var q4v3a2 = "Б) В 1583 году было заключено Плюсское перемирие со Швецией"; var q4v3a3 = "В) После смерти Ивана Грозного царем стал его брат - Федор"; var q4v3a4 = "Г) Иван Грозный умер в 1584 году"; var q4v3pa = "А, Б, Г";
 var q4v4 = "4. Назовите верные утверждения: (Примичание, ответы пишутся в формате: 'А, А', где А ответ на вопрос)"; var q4v4a1 = "4"; var q4v4a2 = "4"; var q4v4a3 = "4"; var q4v4a4 = "4";var q4v4pa = "1";
 
-var q5v1 = "5. После смерти Ивана IV на престол взошёл"; var q5v1a1 = "5"; var q5v1a2 = "5"; var q5v1a3 = "5"; var q5v1a4 = "5"; var q5v1pa = "1";
-var q5v2 = "5"; var q5v2a1 = "5"; var q5v2a2 = "5"; var q5v2a3 = "5"; var q5v2a4 = "5";var q5v2pa = "1";
-var q5v3 = "5"; var q5v3a1 = "5"; var q5v3a2 = "5"; var q5v3a3 = "5"; var q5v3a4 = "5"; var q5v3pa = "1";
-var q5v4 = "5"; var q5v4a1 = "5"; var q5v4a2 = "5"; var q5v4a3 = "5"; var q5v4a4 = "5";var q5v4pa = "1";
+var q5v1 = "5. Что изображено на картине?"; var q5v1a1 = "А) Церковь Вознесения в Коломенском"; var q5v1a2 = "Б) Троицкая церковь в Александровой слободе"; var q5v1a3 = "В) Храм Покрова Богородицы на Рву"; var q5v1a4 = "Г) Колокольня Ивана Великого"; var q5v1pa = "А";
+var q5v2 = "5. Что изображено на картине?"; var q5v2a1 = "А) Церковь Вознесения в Коломенском"; var q5v2a2 = "Б) Троицкая церковь в Александровой слободе"; var q5v2a3 = "В) Храм Покрова Богородицы на Рву"; var q5v2a4 = "Г) Колокольня Ивана Великого";var q5v2pa = "Б";
+var q5v3 = "5. Что изображено на картине?"; var q5v3a1 = "А) Церковь Вознесения в Коломенском"; var q5v3a2 = "Б) Троицкая церковь в Александровой слободе"; var q5v3a3 = "В) Храм Покрова Богородицы на Рву"; var q5v3a4 = "Г) Колокольня Ивана Великого"; var q5v3pa = "Г";
+var q5v4 = "5. Что изображено на картине?"; var q5v4a1 = "А) Церковь Вознесения в Коломенском"; var q5v4a2 = "Б) Троицкая церковь в Александровой слободе"; var q5v4a3 = "В) Храм Покрова Богородицы на Рву"; var q5v4a4 = "Г) Колокольня Ивана Великого";var q5v4pa = "В";
 
-var q6v1 = "6"; var q6v1a1 = "6"; var q6v1a2 = "6"; var q6v1a3 = "6"; var q6v1a4 = "6"; var q6v1pa = "1";
-var q6v2 = "6"; var q6v2a1 = "6"; var q6v2a2 = "6"; var q6v2a3 = "6"; var q6v2a4 = "6";var q6v2pa = "1";
-var q6v3 = "6"; var q6v3a1 = "6"; var q6v3a2 = "6"; var q6v3a3 = "6"; var q6v3a4 = "6"; var q6v3pa = "1";
-var q6v4 = "6"; var q6v4a1 = "6"; var q6v4a2 = "6"; var q6v4a3 = "6"; var q6v4a4 = "6";var q6v4pa = "1";
+var q6v1 = "6. Назовите российского монарха в период, когда произошло восстание, границы района которого обозначены на карте"; var q6v1a1 = ""; var q6v1a2 = ""; var q6v1a3 = ""; var q6v1a4 = ""; var q6v1pa = "алексей михайлович";
+var q6v2 = "6. Заполните пропуск в предложении (укажите название государственного образования): «Война, события которой отражены на карте, началась с боевых действий России против"; var q6v2a1 = ""; var q6v2a2 = ""; var q6v2a3 = ""; var q6v2a4 = "";var q6v2pa = "ливонский ордена";
+var q6v3 = "6. Назовите монарха, в период правления которого состоялся обозначенный на карте стрелками поход"; var q6v3a1 = ""; var q6v3a2 = ""; var q6v3a3 = ""; var q6v3a4 = ""; var q6v3pa = "Иван Грозный";
+var q6v4 = "6. Назовите российского монарха, в период правления которого состоялся обозначенный на карте поход"; var q6v4a1 = ""; var q6v4a2 = ""; var q6v4a3 = ""; var q6v4a4 = "";var q6v4pa = "Василий Шуйский";
 
-var q7v1 = "7"; var q7v1a1 = "7"; var q7v1a2 = "7"; var q7v1a3 = "7"; var q7v1a4 = "7"; var q7v1pa = "1";
-var q7v2 = "7"; var q7v2a1 = "7"; var q7v2a2 = "7"; var q7v2a3 = "7"; var q7v2a4 = "7"; var q7v2pa = "1";
-var q7v3 = "7"; var q7v3a1 = "7"; var q7v3a2 = "7"; var q7v3a3 = "7"; var q7v3a4 = "7"; var q7v3pa = "1";
-var q7v4 = "7"; var q7v4a1 = "7"; var q7v4a2 = "7"; var q7v4a3 = "7"; var q7v4a4 = "7"; var q7v4pa = "1";
+var q7v1 = "7. В 1597 году был издан указ об «урочных летах», по которому:"; var q7v1a1 = "A) крестьянам запрещалось менять хозяев в Юрьев день"; var q7v1a2 = "Б) был ограничен переход крестьян в Юрьев день"; var q7v1a3 = "B) был введен пятилетний срок сыска беглых крестьян "; var q7v1a4 = "Г) помещикам разрешалось в определенное время переводить крестьян на оброк"; var q7v1pa = "В";
+var q7v2 = "7. Причиной Смуты на Руси НЕ ЯВЛЯЛОСЬ следующее:"; var q7v2a1 = "A) последствия разорения страны после опричнины"; var q7v2a2 = "Б) династический кризис"; var q7v2a3 = "B) голод 1601-1603 гг."; var q7v2a4 = "Г) неудачная внешняя политика Бориса Годунова"; var q7v2pa = "Г";
+var q7v3 = "7. Опричнина была направлена против"; var q7v3a1 = "А) дворянской оппозиции "; var q7v3a2 = "Б) взбунтовавшихся крестья"; var q7v3a3 = "В) жителей национальных окраин "; var q7v3a4 = "Г) строптивого боярства"; var q7v3pa = "В";
+var q7v4 = "7. Появление мануфактур в XVII в. свидетельствовало о:"; var q7v4a1 = "A) господстве феодальных отношений"; var q7v4a2 = "Б) зарождении капиталистических отношений"; var q7v4a3 = "B) продолжении процесса закрепощения крестьян"; var q7v4a4 = "Г) превращении России в передовую промышленную держав"; var q7v4pa = "Б";
 
-var q8v1 = "8"; var q8v1a1 = "8"; var q8v1a2 = "8"; var q8v1a3 = "8"; var q8v1a4 = "8"; var q8v1pa = "1";
-var q8v2 = "8"; var q8v2a1 = "8"; var q8v2a2 = "8"; var q8v2a3 = "8"; var q8v2a4 = "8";var q8v2pa = "1";
-var q8v3 = "8"; var q8v3a1 = "8"; var q8v3a2 = "8"; var q8v3a3 = "8"; var q8v3a4 = "8"; var q8v3pa = "1";
-var q8v4 = "8"; var q8v4a1 = "8"; var q8v4a2 = "8"; var q8v4a3 = "8"; var q8v4a4 = "8";var q8v4pa = "1";
+var q8v1 = "8. Годы 1497, 1581, 1597, 1649 отражают основные этапы:"; var q8v1a1 = "A) борьбы России за выход к морю"; var q8v1a2 = "Б) образования Российского централизованного государства"; var q8v1a3 = "B) борьбы Руси с Золотой Ордой за независимость"; var q8v1a4 = "Г) закрепощения крестьян."; var q8v1pa = "Г";
+var q8v2 = "8. Политическое развитие России в XVII в. характеризовалось:"; var q8v2a1 = "A) усилением самодержавной власти"; var q8v2a2 = "Б) установлением ограниченного самодержавия"; var q8v2a3 = "B) учреждением системы министерств"; var q8v2a4 = "Г) усилением роли Боярской думы";var q8v2pa = "А";
+var q8v3 = "8. В середине XVII в. Земские соборы перестали собираться, так как в России:"; var q8v3a1 = "A) были решены основные вопросы внешней политики"; var q8v3a2 = "Б) возросло значение Боярской думы"; var q8v3a3 = "B) это было решено Соборным уложением"; var q8v3a4 = "Г) формировался абсолютизм"; var q8v3pa = "Г";
+var q8v4 = "8. Какой ряд дат отражает события во внешней политике России XVII в.?"; var q8v4a1 = "A) 1632-1634, 1654-1667, 1686"; var q8v4a2 = "Б) 1650,1662,1670-1671"; var q8v4a3 = "B) 1649,1653, 1667"; var q8v4a4 = "Г) 1613, 1652-1666, 1682";var q8v4pa = "А";
 
-var q9v1 = "9"; var q9v1a1 = "9"; var q9v1a2 = "9"; var q9v1a3 = "9"; var q9v1a4 = "9"; var q9v1pa = "1";
-var q9v2 = "9"; var q9v2a1 = "9"; var q9v2a2 = "9"; var q9v2a3 = "9"; var q9v2a4 = "9"; var q9v2pa = "1";
-var q9v3 = "9"; var q9v3a1 = "9"; var q9v3a2 = "9"; var q9v3a3 = "9"; var q9v3a4 = "9"; var q9v3pa = "1";
-var q9v4 = "9"; var q9v4a1 = "9"; var q9v4a2 = "9"; var q9v4a3 = "9"; var q9v4a4 = "9"; var q9v4pa = "1";
+var q9v1 = "9. Напишите год начала Ливонской войны"; var q9v1a1 = ""; var q9v1a2 = ""; var q9v1a3 = ""; var q9v1a4 = ""; var q9v1pa = "1558";
+var q9v2 = "9. Напишите год окончания Ливонской войны"; var q9v2a1 = ""; var q9v2a2 = ""; var q9v2a3 = ""; var q9v2a4 = ""; var q9v2pa = "1583";
+var q9v3 = "9. Напишите когда началась осада Пскова"; var q9v3a1 = ""; var q9v3a2 = ""; var q9v3a3 = ""; var q9v3a4 = ""; var q9v3pa = "1581";
+var q9v4 = "9. Напишите год взятия Ермаком Сибирского ханства"; var q9v4a1 = ""; var q9v4a2 = ""; var q9v4a3 = ""; var q9v4a4 = ""; var q9v4pa = "1582";
 
-var q10v1 = "10"; var q10v1a1 = "10"; var q10v1a2 = "10"; var q10v1a3 = "10"; var q10v1a4 = "10"; var q10v1pa = "1";
-var q10v2 = "10"; var q10v2a1 = "10"; var q10v2a2 = "10"; var q10v2a3 = "10"; var q10v2a4 = "10"; var q10v2pa = "1";
-var q10v3 = "10"; var q10v3a1 = "10"; var q10v3a2 = "10"; var q10v3a3 = "10"; var q10v3a4 = "10"; var q10v3pa = "1";
-var q10v4 = "10"; var q10v4a1 = "10"; var q10v4a2 = "10"; var q10v4a3 = "10"; var q10v4a4 = "10"; var q10v4pa = "1";
+var q10v1 = "10. В каком году была напечатана первая на Руси книга 'Апостол'"; var q10v1a1 = ""; var q10v1a2 = ""; var q10v1a3 = ""; var q10v1a4 = ""; var q10v1pa = "1564";
+var q10v2 = "10. В каком году Фёдор Конь возвёл укрепления Белого города"; var q10v2a1 = ""; var q10v2a2 = ""; var q10v2a3 = ""; var q10v2a4 = ""; var q10v2pa = "1586";
+var q10v3 = "10. Напишите дату правления Фёдора Ивановича (формат 1000-1000)"; var q10v3a1 = ""; var q10v3a2 = ""; var q10v3a3 = ""; var q10v3a4 = ""; var q10v3pa = "1584-1598";
+var q10v4 = "10. В каком году произошло учереждение в Москвском государстве патриаршества?"; var q10v4a1 = ""; var q10v4a2 = ""; var q10v4a3 = ""; var q10v4a4 = ""; var q10v4pa = "1589";
 
-var minute = 24;
-var sec = 59;
+
+window.onload = function() {
+    document.querySelector(".title_txt_up").innerHTML = title
+    document.querySelector(".settings_test_txt").innerHTML = `Настройки теста: время на выполнение: ${time} минут, вопросов: ${question}`
+    document.querySelector(".timer_text").innerHTML = `сталось время: <span id="timer"> ${time}:00</span> минут </p>`
+ };
 // КОД
+
+var minute = time-1;
+var sec = 59;
+
 var mark = 2
 var xhr = new XMLHttpRequest();
 document.querySelector(".q3-img1").style.display = 'none';
 document.querySelector(".q3-img2").style.display = 'none';
+document.querySelector(".q5-img1").style.display = 'none';
+document.querySelector(".q5-img2").style.display = 'none';
+document.querySelector(".q5-img3").style.display = 'none';
+document.querySelector(".q5-img4").style.display = 'none';
+document.querySelector(".q6-img1").style.display = 'none';
+document.querySelector(".q6-img2").style.display = 'none';
+document.querySelector(".q6-img3").style.display = 'none';
+document.querySelector(".q6-img4").style.display = 'none';
+
 var ball = 0;
 document.querySelector(".start_test_bttn").onclick = function(){
     var name = document.getElementById("username_input").value;//by id
@@ -82,7 +101,12 @@ function randomInteger(min, max) {
         }
       }
     }, 1000);
-  
+        if(sec == 00){
+            if (minute == 0) {
+                while(true){alert('TIME!!!')}
+              }
+        }
+
 data_q1 = randomInteger(1, 4)
 data_q2 = randomInteger(1, 4)
 data_q3 = randomInteger(1, 2)
@@ -215,6 +239,7 @@ if(data_q4 == 4){
 
 if(data_q5 == 1){
     document.querySelector(".q5").innerHTML = q5v1;
+    document.querySelector(".q5-img1").style.display = '';
     document.querySelector(".q5-a1").innerHTML= q5v1a1;
     document.querySelector(".q5-a2").innerHTML = q5v1a2;
     document.querySelector(".q5-a3").innerHTML= q5v1a3;
@@ -222,6 +247,7 @@ if(data_q5 == 1){
 }
 if(data_q5 == 2){
     document.querySelector(".q5").innerHTML = q5v2;
+    document.querySelector(".q5-img2").style.display = '';
     document.querySelector(".q5-a1").innerHTML= q5v2a1;
     document.querySelector(".q5-a2").innerHTML = q5v2a2;
     document.querySelector(".q5-a3").innerHTML= q5v2a3;
@@ -229,6 +255,7 @@ if(data_q5 == 2){
 }
 if(data_q5 == 3){
     document.querySelector(".q5").innerHTML = q5v3;
+    document.querySelector(".q5-img3").style.display = '';
     document.querySelector(".q5-a1").innerHTML= q5v3a1;
     document.querySelector(".q5-a2").innerHTML = q5v3a2;
     document.querySelector(".q5-a3").innerHTML= q5v3a3;
@@ -236,6 +263,7 @@ if(data_q5 == 3){
 }
 if(data_q5 == 4){
     document.querySelector(".q5").innerHTML = q5v4;
+    document.querySelector(".q5-img4").style.display = '';
     document.querySelector(".q5-a1").innerHTML= q5v4a1;
     document.querySelector(".q5-a2").innerHTML = q5v4a2;
     document.querySelector(".q5-a3").innerHTML= q5v4a3;
@@ -244,6 +272,7 @@ if(data_q5 == 4){
 
 if(data_q6 == 1){
     document.querySelector(".q6").innerHTML = q6v1;
+    document.querySelector(".q6-img1").style.display = '';
     document.querySelector(".q6-a1").innerHTML= q6v1a1;
     document.querySelector(".q6-a2").innerHTML = q6v1a2;
     document.querySelector(".q6-a3").innerHTML= q6v1a3;
@@ -251,6 +280,7 @@ if(data_q6 == 1){
 }   
 if(data_q6 == 2){
     document.querySelector(".q6").innerHTML = q6v2;
+    document.querySelector(".q6-img2").style.display = '';
     document.querySelector(".q6-a1").innerHTML= q6v2a1;
     document.querySelector(".q6-a2").innerHTML = q6v2a2;
     document.querySelector(".q6-a3").innerHTML= q6v2a3;
@@ -258,6 +288,7 @@ if(data_q6 == 2){
 }
 if(data_q6 == 3){
     document.querySelector(".q6").innerHTML = q6v3;
+    document.querySelector(".q6-img3").style.display = '';
     document.querySelector(".q6-a1").innerHTML= q6v3a1;
     document.querySelector(".q6-a2").innerHTML = q6v3a2;
     document.querySelector(".q6-a3").innerHTML= q6v3a3;
@@ -265,6 +296,7 @@ if(data_q6 == 3){
 }
 if(data_q6 == 4){
     document.querySelector(".q6").innerHTML = q6v4;
+    document.querySelector(".q6-img4").style.display = '';
     document.querySelector(".q6-a1").innerHTML= q6v4a1;
     document.querySelector(".q6-a2").innerHTML = q6v4a2;
     document.querySelector(".q6-a3").innerHTML= q6v4a3;
@@ -388,8 +420,6 @@ if(data_q10 == 4){
 }
 }
 document.querySelector(".end_test_bttn").onclick = function(){
-    
-    
     document.querySelector(".title_txt_down").innerHTML = "Тестирование (завершено)" ;
     document.querySelector(".end_test_bttn").disabled = true; 
     var name = document.getElementById("username_input").value;
@@ -741,10 +771,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
     if (data_q10==1){
         if(otv_q10==q10v1pa){
             ball = ball+1
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -752,14 +811,42 @@ document.querySelector(".end_test_bttn").onclick = function(){
                 }
             })
             
-            
         }
         else{
             ball = ball
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -771,10 +858,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
     if (data_q10==2){
         if(otv_q10==q10v2pa){
             ball = ball+1
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -784,10 +900,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
         }
         else{
             ball = ball          
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -799,10 +944,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
     if (data_q10==3){
         if(otv_q10==q10v3pa){
             ball = ball+1
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -812,10 +986,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
         }
         else{
             ball = ball
-            
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -827,9 +1030,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
     if (data_q10==4){
         if(otv_q10==q10v4pa){
             ball = ball+1
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -839,9 +1072,39 @@ document.querySelector(".end_test_bttn").onclick = function(){
         }
         else{
             ball = ball
+            if(ball == 10){
+                mark = 5   
+           }
+           if(ball == 9){
+               mark = 5   
+           }
+           if(ball == 8){
+               mark = 4 
+           }
+           if(ball == 7){
+               mark = 4  
+           }
+           if(ball == 6){
+               mark = 4   
+           }
+           if(ball == 5){
+               mark = 3 
+           }
+           if(ball == 4){
+               mark = 3 
+           }
+           if(ball == 3){
+               mark = 2
+           }
+           if(ball == 2){
+               mark = 2
+           }
+           if(ball == 1){
+               mark = 2
+           }
             console.log("Ball - " + ball)
-            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball );
-            fetch(`his7/result/${name}/${ball}`, {
+            alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
+            fetch(`his7/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',

@@ -41,6 +41,20 @@ hr {
     outline: none;
     box-shadow: 0 0 0 4px #cbd6ee;
   }
+.Login_bttn{
+    margin-left: 15px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}  
+.Login_bttn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
 .title_txt_down{
     font-size: 45px;
     font-weight: bold;  
@@ -73,7 +87,7 @@ hr {
 .timer_text{
     text-align: center;
     font-size: 20px;
-    font-weight:initial;
+    font-weight: 550;
 }
 
 input {

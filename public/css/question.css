@@ -146,6 +146,10 @@
     font-weight: bold;   
     margin-left: 20px;
 }
+.q5-img1, .q5-img4, .q5-img3, .q5-img2{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
 .q5-a1{
     font-size: 17px;
     font-weight:bolder;  
