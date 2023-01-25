@@ -1,7 +1,6 @@
 import express from "express";
 import path  from "path";
 import fs from "fs";
-import MongoClient from "mongodb"
 
 const __dirname = path.resolve()
 const PORT = 8095
