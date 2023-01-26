@@ -1,6 +1,16 @@
 import express from "express";
 import path  from "path";
 import fs from "fs";
+import mysql from 'mysql'
+;
+var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'root',
+  password : 'root',
+  database : 'school21_history.test'
+});
+ 
+
 
 const __dirname = path.resolve()
 const PORT = 8095
@@ -17,12 +27,15 @@ app.get('/', (req, res) =>{
   res.send("<h1>Write test adress</h1>")
 })
 
-app.post('/his7/result/:name/:ball/:mark', (req, res) => {
+app.post('/result/:name/:ball/:mark', (req, res) => {
     const name = req.params.name;
     const ball = req.params.ball;
     const mark = req.params.mark
     res.send(`${name}:${ball}:${mark}`)
-    fs.appendFile('admin-tool/student.csv', `${name},${ball},${mark}\n`, 'utf8', function (err) {
+    connection.connect();
+    connection.query("INSERT INTO `students` (`id`, `name`, `mark`, `correct_answer`) VALUES (NULL, '"+name+"', '"+mark+"', '"+ball+"');");
+    connection.end();
+    fs.appendFile('admin-tool/student.csv', `${name},${ball},${mark},7Б\n`, 'utf8', function (err) {
         if (err) {
           console.log("Error");
         } else{

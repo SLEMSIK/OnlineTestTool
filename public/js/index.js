@@ -803,7 +803,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -846,7 +846,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -890,7 +890,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -932,7 +932,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -976,7 +976,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -1018,7 +1018,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -1062,7 +1062,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
@@ -1104,7 +1104,7 @@ document.querySelector(".end_test_bttn").onclick = function(){
            }
             console.log("Ball - " + ball)
             alert("Name: " + name + "| Time: "+time_out + "| Ball: " +ball + "| Mark: " + mark);
-            fetch(`his7/result/${name}/${ball}/${mark}`, {
+            fetch(`/result/${name}/${ball}/${mark}`, {
                 method: "post",
                 headers: {
                     'Accept': 'application/json',
